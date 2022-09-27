@@ -1,7 +1,13 @@
 class Solution {
     public int minimumSum(int num) {
-        char[] ch = (num+"").toCharArray();
-        Arrays.sort(ch);
-        return Integer.parseInt(""+ch[0] +ch[2]) + Integer.parseInt(""+ch[1] +ch[3]);
+        char[] chars;
+
+        chars = (""+num).toCharArray();
+        Arrays.sort(chars);
+
+        int num1 = Integer.parseInt("" + chars[0] + chars[2]);
+        int num2 = Integer.parseInt("" +chars[1] + chars[3]);
+
+        return num1+num2;
     }
 }
