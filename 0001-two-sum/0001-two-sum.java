@@ -7,5 +7,6 @@ class Solution {
             seen.put(b, i);
         }
         return new int[]{};
+        
     }
 }
