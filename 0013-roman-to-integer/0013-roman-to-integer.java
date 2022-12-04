@@ -18,5 +18,6 @@ class Solution {
 			result -= map.get(s.charAt(i));
 	}
 	return result;
+        
 }
 }
