@@ -1,25 +1,20 @@
 import java.util.Arrays;
 class Solution {
     public String longestCommonPrefix(String[] strs) {
-        if (strs == null || strs.length == 0){
-            return "";
+        if (strs == null || strs.length == 0) {
+        return "";
+    }
+    
+    String prefix = strs[0];
+    for (int i = 1; i < strs.length; i++) {
+        while (strs[i].indexOf(prefix) != 0) {
+            prefix = prefix.substring(0, prefix.length() - 1);
+            if (prefix.isEmpty()) {
+                return "";
+            }
         }
-     // sorting the array.
-        Arrays.sort(strs);
-    // storing the smallest.
-        String smallest=strs[0];
-    // storing the largest.
-         String largest=strs[strs.length-1];
-         String ans="";
-    // comparing the both.
-      for(int i=0;i<smallest.length();i++){
-        if(smallest.charAt(i)==largest.charAt(i)){
-            ans=ans+smallest.charAt(i);
-        }
-        else{
-            break;
-        }
-      }
-      return ans;
+    }
+    
+    return prefix;
     }
 }
