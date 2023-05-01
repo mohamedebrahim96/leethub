@@ -14,20 +14,15 @@
  * }
  */
 class Solution {
-    private List<Integer> answer = new ArrayList<>();
-
-    private void dfs(TreeNode node) {
-        if (node == null) {
-            return;
-        }
-        // Visit the root first, then the left subtree, then the right subtree.
-        answer.add(node.val);
-        dfs(node.left);
-        dfs(node.right);
-    }
-    
     public List<Integer> preorderTraversal(TreeNode root) {
-        dfs(root);
-        return answer;
+        List<Integer> list=new ArrayList<Integer>();
+        preorder(root,list);
+        return list;
+    }
+    public void preorder(TreeNode root,List<Integer> list){
+        if(root==null) return ;
+        list.add(root.val);
+        preorder(root.left,list);
+        preorder(root.right,list);
     }
 }
