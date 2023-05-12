@@ -1,32 +1,16 @@
 class Solution {
-    public int shortestDistance(String[] wordsDict, String word1, String word2) {
-        int indexOne = -1;
-        int indexTwo = -1;
-        int minDis = Integer.MAX_VALUE;
+   public int shortestDistance(String[] wordsDict, String word1, String word2) {
+	var distance = Integer.MAX_VALUE;
 
-        // for every word in the input array
-        for(int i=0 ; i < wordsDict.length; i++){
-            // if its word1
-            if(wordsDict[i].equals(word1)){
-                // mark the resective index
-                indexOne = i;
-                // and if word2 is already seen, calculate the minDis
-                if(indexTwo != -1){
-                    // indexOne > indexTwo
-                    minDis = Math.min(minDis, indexOne - indexTwo);
-                }
-            }
-            // same for word2, if found check if word1 is already seen and
-            // calculate min distance accordingly
-            else if(wordsDict[i].equals(word2)){
-                indexTwo = i;
-                if(indexOne != -1){
-                    // indexTwo > indexOne
-                    minDis = Math.min(minDis, indexTwo - indexOne);
-                }
-            } 
-        }
-
-        return minDis;
-    }
+	for (int i = 0, index1 = -1, index2 = -1; i < wordsDict.length; i++) {
+		var word = wordsDict[i];
+		if (word.equals(word1))
+			index1 = i;
+		else if (word.equals(word2))
+			index2 = i;
+		if (index1 != -1 && index2 != -1)
+			distance = Math.min(distance, Math.abs(index1 - index2));
+	}
+	return distance;
+}
 }
