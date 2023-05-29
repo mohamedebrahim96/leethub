@@ -6,6 +6,8 @@ class Solution {
             if (seen.containsKey(a)) return new int[]{seen.get(a), i}; // Found pair of (a, b), so that a + b = target
             seen.put(b, i);
         }
+        
+        
         return new int[]{};
         
     }
