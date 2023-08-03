@@ -1,25 +1,30 @@
-public class Solution {
-private int lo, maxLen;
+class Solution {
+    public String longestPalindrome(String s) {
+        int n = s.length();
+        boolean[][] dp = new boolean[n][n];
+        int l = -1, r = -1, maxLen = 0;
 
-public String longestPalindrome(String s) {
-	int len = s.length();
-	if (len < 2)
-		return s;
-	
-    for (int i = 0; i < len-1; i++) {
-     	extendPalindrome(s, i, i);  //assume odd length, try to extend Palindrome as possible
-     	extendPalindrome(s, i, i+1); //assume even length.
+        for (int g = 0; g < n; g++) {
+            for (int i = 0, j = g; j < n; i++, j++) {
+                if (g == 0) dp[i][j] = true;
+                else if (g == 1) {
+                    dp[i][j] = s.charAt(i) == s.charAt(j);
+                }
+                else {
+                    dp[i][j] = s.charAt(i) == s.charAt(j) && dp[i + 1][j - 1];
+                }
+
+                if (dp[i][j] && (j - i + 1) > maxLen) {
+                    maxLen = j - i + 1;
+                    l = i;
+                    r = j;
+                }
+            }
+        }
+
+        return s.substring(l, r + 1);
     }
-    return s.substring(lo, lo + maxLen);
 }
 
-private void extendPalindrome(String s, int j, int k) {
-	while (j >= 0 && k < s.length() && s.charAt(j) == s.charAt(k)) {
-		j--;
-		k++;
-	}
-	if (maxLen < k - j - 1) {
-		lo = j + 1;
-		maxLen = k - j - 1;
-	}
-}}
+// TC: O(n^2 / 2) + O(n) ~ O(n ^ 2)
+// SC: O(n ^ 2)
