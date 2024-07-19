@@ -1,28 +1,15 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        int[] result = {0,0};
-        int restVal = 0;
-        int foundResult = 0;
-        for(int i=0; i< nums.length-1; i++){
-            if(target == 0){
-                if(nums[i]==0)
-                    restVal=0;
-                else if(nums[i]<0)
-                    restVal = -nums[i];
+        Map<Integer, Integer> pairIdx = new HashMap<>();
+
+        for (int i = 0; i < nums.length; i++) {
+            int num = nums[i];
+            if (pairIdx.containsKey(target - num)) {
+                return new int[] { i, pairIdx.get(target - num) };
             }
-            else
-                restVal = target - nums[i];
-            for(int j=i+1; j<nums.length; j++){
-                if(restVal == nums[j]){
-                    result[0] = i;
-                    result[1] = j;
-                    foundResult = 1;
-                    break;
-                }
-            }
-            if(foundResult==1)
-                break;
+            pairIdx.put(num, i);
         }
-        return result;
+
+        return new int[] {};        
     }
 }
