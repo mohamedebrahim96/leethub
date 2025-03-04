@@ -15,4 +15,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/mohamedebrahim96/leethub/tree/master/0013-roman-to-integer) |
+## Array
+|  |
+| ------- |
+| [0027-remove-element](https://github.com/mohamedebrahim96/leethub/tree/master/0027-remove-element) |
+## Two Pointers
+|  |
+| ------- |
+| [0027-remove-element](https://github.com/mohamedebrahim96/leethub/tree/master/0027-remove-element) |
 <!---LeetCode Topics End-->
