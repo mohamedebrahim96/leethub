@@ -16,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/mohamedebrahim96/leethub/tree/master/0013-roman-to-integer) |
+| [0020-valid-parentheses](https://github.com/mohamedebrahim96/leethub/tree/master/0020-valid-parentheses) |
 ## Array
 |  |
 | ------- |
@@ -29,4 +30,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/mohamedebrahim96/leethub/tree/master/0035-search-insert-position) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/mohamedebrahim96/leethub/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
