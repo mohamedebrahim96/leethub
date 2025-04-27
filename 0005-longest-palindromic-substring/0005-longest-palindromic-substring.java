@@ -1,30 +1,27 @@
 class Solution {
+    int maxLen = 0;
+    int lo = 0;
     public String longestPalindrome(String s) {
-        int n = s.length();
-        boolean[][] dp = new boolean[n][n];
-        int l = -1, r = -1, maxLen = 0;
-
-        for (int g = 0; g < n; g++) {
-            for (int i = 0, j = g; j < n; i++, j++) {
-                if (g == 0) dp[i][j] = true;
-                else if (g == 1) {
-                    dp[i][j] = s.charAt(i) == s.charAt(j);
-                }
-                else {
-                    dp[i][j] = s.charAt(i) == s.charAt(j) && dp[i + 1][j - 1];
-                }
-
-                if (dp[i][j] && (j - i + 1) > maxLen) {
-                    maxLen = j - i + 1;
-                    l = i;
-                    r = j;
-                }
-            }
+        char[] input = s.toCharArray();
+        if(s.length() < 2) {
+            return s;
         }
-
-        return s.substring(l, r + 1);
+        
+        for(int i = 0; i<input.length; i++) {
+            expandPalindrome(input, i, i);
+            expandPalindrome(input, i, i+1);
+        }
+        return s.substring(lo, lo+maxLen);
+    }
+    
+    public void expandPalindrome(char[] s, int j, int k) {
+        while(j >= 0 && k < s.length && s[j] == s[k]) {
+            j--;
+            k++;
+        }
+        if(maxLen < k - j - 1) {
+            maxLen = k - j - 1;
+            lo = j+1;
+        }
     }
 }
-
-// TC: O(n^2 / 2) + O(n) ~ O(n ^ 2)
-// SC: O(n ^ 2)
