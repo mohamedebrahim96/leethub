@@ -21,12 +21,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/mohamedebrahim96/leethub/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/mohamedebrahim96/leethub/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/mohamedebrahim96/leethub/tree/master/0035-search-insert-position) |
 ## Two Pointers
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/mohamedebrahim96/leethub/tree/master/0005-longest-palindromic-substring) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/mohamedebrahim96/leethub/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/mohamedebrahim96/leethub/tree/master/0027-remove-element) |
 ## Binary Search
 |  |
