@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/mohamedebrahim96/leethub/tree/master/0013-roman-to-integer) |
+| [0037-sudoku-solver](https://github.com/mohamedebrahim96/leethub/tree/master/0037-sudoku-solver) |
 ## Math
 |  |
 | ------- |
@@ -25,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0026-remove-duplicates-from-sorted-array](https://github.com/mohamedebrahim96/leethub/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/mohamedebrahim96/leethub/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/mohamedebrahim96/leethub/tree/master/0035-search-insert-position) |
+| [0037-sudoku-solver](https://github.com/mohamedebrahim96/leethub/tree/master/0037-sudoku-solver) |
 ## Two Pointers
 |  |
 | ------- |
@@ -51,4 +53,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/mohamedebrahim96/leethub/tree/master/0005-longest-palindromic-substring) |
+## Backtracking
+|  |
+| ------- |
+| [0037-sudoku-solver](https://github.com/mohamedebrahim96/leethub/tree/master/0037-sudoku-solver) |
+## Matrix
+|  |
+| ------- |
+| [0037-sudoku-solver](https://github.com/mohamedebrahim96/leethub/tree/master/0037-sudoku-solver) |
 <!---LeetCode Topics End-->
