@@ -1,15 +1,19 @@
-class Solution {
+import java.util.HashMap;
+
+public class Solution {
     public int[] twoSum(int[] nums, int target) {
-        Map<Integer, Integer> pairIdx = new HashMap<>();
+        HashMap<Integer, Integer> map = new HashMap<>(); // value -> index
 
         for (int i = 0; i < nums.length; i++) {
-            int num = nums[i];
-            if (pairIdx.containsKey(target - num)) {
-                return new int[] { i, pairIdx.get(target - num) };
+            int complement = target - nums[i];
+
+            if (map.containsKey(complement)) {
+                return new int[] { map.get(complement), i };
             }
-            pairIdx.put(num, i);
+
+            map.put(nums[i], i);
         }
 
-        return new int[] {};        
+        throw new IllegalArgumentException("No solution");
     }
 }
