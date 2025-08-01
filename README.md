@@ -25,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/mohamedebrahim96/leethub/tree/master/0001-two-sum) |
+| [0004-median-of-two-sorted-arrays](https://github.com/mohamedebrahim96/leethub/tree/master/0004-median-of-two-sorted-arrays) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/mohamedebrahim96/leethub/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/mohamedebrahim96/leethub/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/mohamedebrahim96/leethub/tree/master/0035-search-insert-position) |
@@ -38,6 +39,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/mohamedebrahim96/leethub/tree/master/0004-median-of-two-sorted-arrays) |
 | [0035-search-insert-position](https://github.com/mohamedebrahim96/leethub/tree/master/0035-search-insert-position) |
 ## Stack
 |  |
@@ -76,4 +78,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/mohamedebrahim96/leethub/tree/master/0094-binary-tree-inorder-traversal) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/mohamedebrahim96/leethub/tree/master/0004-median-of-two-sorted-arrays) |
 <!---LeetCode Topics End-->
