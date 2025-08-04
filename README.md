@@ -50,10 +50,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/mohamedebrahim96/leethub/tree/master/0021-merge-two-sorted-lists) |
+| [0025-reverse-nodes-in-k-group](https://github.com/mohamedebrahim96/leethub/tree/master/0025-reverse-nodes-in-k-group) |
 ## Recursion
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/mohamedebrahim96/leethub/tree/master/0021-merge-two-sorted-lists) |
+| [0025-reverse-nodes-in-k-group](https://github.com/mohamedebrahim96/leethub/tree/master/0025-reverse-nodes-in-k-group) |
 ## Dynamic Programming
 |  |
 | ------- |
