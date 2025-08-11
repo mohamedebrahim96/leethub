@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0001-two-sum](https://github.com/mohamedebrahim96/leethub/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/mohamedebrahim96/leethub/tree/master/0013-roman-to-integer) |
 | [0037-sudoku-solver](https://github.com/mohamedebrahim96/leethub/tree/master/0037-sudoku-solver) |
+| [0076-minimum-window-substring](https://github.com/mohamedebrahim96/leethub/tree/master/0076-minimum-window-substring) |
 ## Math
 |  |
 | ------- |
@@ -23,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0038-count-and-say](https://github.com/mohamedebrahim96/leethub/tree/master/0038-count-and-say) |
 | [0044-wildcard-matching](https://github.com/mohamedebrahim96/leethub/tree/master/0044-wildcard-matching) |
 | [0058-length-of-last-word](https://github.com/mohamedebrahim96/leethub/tree/master/0058-length-of-last-word) |
+| [0076-minimum-window-substring](https://github.com/mohamedebrahim96/leethub/tree/master/0076-minimum-window-substring) |
 ## Array
 |  |
 | ------- |
@@ -110,4 +112,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0085-maximal-rectangle](https://github.com/mohamedebrahim96/leethub/tree/master/0085-maximal-rectangle) |
+## Sliding Window
+|  |
+| ------- |
+| [0076-minimum-window-substring](https://github.com/mohamedebrahim96/leethub/tree/master/0076-minimum-window-substring) |
 <!---LeetCode Topics End-->
