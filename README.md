@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0027-remove-element](https://github.com/mohamedebrahim96/leethub/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/mohamedebrahim96/leethub/tree/master/0035-search-insert-position) |
 | [0037-sudoku-solver](https://github.com/mohamedebrahim96/leethub/tree/master/0037-sudoku-solver) |
+| [0084-largest-rectangle-in-histogram](https://github.com/mohamedebrahim96/leethub/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/mohamedebrahim96/leethub/tree/master/0085-maximal-rectangle) |
 ## Two Pointers
 |  |
@@ -50,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/mohamedebrahim96/leethub/tree/master/0020-valid-parentheses) |
+| [0084-largest-rectangle-in-histogram](https://github.com/mohamedebrahim96/leethub/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/mohamedebrahim96/leethub/tree/master/0085-maximal-rectangle) |
 | [0094-binary-tree-inorder-traversal](https://github.com/mohamedebrahim96/leethub/tree/master/0094-binary-tree-inorder-traversal) |
 ## Linked List
@@ -111,6 +113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Monotonic Stack
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/mohamedebrahim96/leethub/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/mohamedebrahim96/leethub/tree/master/0085-maximal-rectangle) |
 ## Sliding Window
 |  |
