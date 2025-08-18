@@ -1,35 +1,34 @@
-enum Result {
-    TRUE, FALSE
-}
-
 class Solution {
-    Result[][] memo;
-
-    public boolean isMatch(String text, String pattern) {
-        memo = new Result[text.length() + 1][pattern.length() + 1];
-        return dp(0, 0, text, pattern);
-    }
-
-    public boolean dp(int i, int j, String text, String pattern) {
-        if (memo[i][j] != null) {
-            return memo[i][j] == Result.TRUE;
-        }
-        boolean ans;
-        if (j == pattern.length()){
-            ans = i == text.length();
-        } else{
-            boolean first_match = (i < text.length() &&
-                                   (pattern.charAt(j) == text.charAt(i) ||
-                                    pattern.charAt(j) == '.'));
-
-            if (j + 1 < pattern.length() && pattern.charAt(j+1) == '*'){
-                ans = (dp(i, j+2, text, pattern) ||
-                       first_match && dp(i+1, j, text, pattern));
-            } else {
-                ans = first_match && dp(i+1, j+1, text, pattern);
+    public boolean isMatch(String s, String p) {
+        int m = s.length(), n = p.length();
+        boolean[][] dp = new boolean[m + 1][n + 1];
+        
+        dp[0][0] = true;
+        
+        // Handle patterns like a*, a*b*, a*b*c*...
+        for (int j = 2; j <= n; j++) {
+            if (p.charAt(j - 1) == '*') {
+                dp[0][j] = dp[0][j - 2];
             }
         }
-        memo[i][j] = ans ? Result.TRUE : Result.FALSE;
-        return ans;
+        
+        for (int i = 1; i <= m; i++) {
+            for (int j = 1; j <= n; j++) {
+                char sc = s.charAt(i - 1);
+                char pc = p.charAt(j - 1);
+                
+                if (pc == '.' || pc == sc) {
+                    dp[i][j] = dp[i - 1][j - 1];
+                } else if (pc == '*') {
+                    dp[i][j] = dp[i][j - 2]; // zero occurrence
+                    char prev = p.charAt(j - 2);
+                    if (prev == '.' || prev == sc) {
+                        dp[i][j] = dp[i][j] || dp[i - 1][j]; // one or more
+                    }
+                }
+            }
+        }
+        
+        return dp[m][n];
     }
 }
