@@ -37,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0004-median-of-two-sorted-arrays](https://github.com/mohamedebrahim96/leethub/tree/master/0004-median-of-two-sorted-arrays) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/mohamedebrahim96/leethub/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/mohamedebrahim96/leethub/tree/master/0027-remove-element) |
+| [0031-next-permutation](https://github.com/mohamedebrahim96/leethub/tree/master/0031-next-permutation) |
 | [0035-search-insert-position](https://github.com/mohamedebrahim96/leethub/tree/master/0035-search-insert-position) |
 | [0037-sudoku-solver](https://github.com/mohamedebrahim96/leethub/tree/master/0037-sudoku-solver) |
 | [0041-first-missing-positive](https://github.com/mohamedebrahim96/leethub/tree/master/0041-first-missing-positive) |
@@ -50,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/mohamedebrahim96/leethub/tree/master/0005-longest-palindromic-substring) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/mohamedebrahim96/leethub/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/mohamedebrahim96/leethub/tree/master/0027-remove-element) |
+| [0031-next-permutation](https://github.com/mohamedebrahim96/leethub/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/mohamedebrahim96/leethub/tree/master/0042-trapping-rain-water) |
 ## Binary Search
 |  |
