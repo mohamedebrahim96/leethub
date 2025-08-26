@@ -30,6 +30,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0044-wildcard-matching](https://github.com/mohamedebrahim96/leethub/tree/master/0044-wildcard-matching) |
 | [0058-length-of-last-word](https://github.com/mohamedebrahim96/leethub/tree/master/0058-length-of-last-word) |
 | [0076-minimum-window-substring](https://github.com/mohamedebrahim96/leethub/tree/master/0076-minimum-window-substring) |
+| [0087-scramble-string](https://github.com/mohamedebrahim96/leethub/tree/master/0087-scramble-string) |
 ## Array
 |  |
 | ------- |
@@ -91,6 +92,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/mohamedebrahim96/leethub/tree/master/0042-trapping-rain-water) |
 | [0044-wildcard-matching](https://github.com/mohamedebrahim96/leethub/tree/master/0044-wildcard-matching) |
 | [0085-maximal-rectangle](https://github.com/mohamedebrahim96/leethub/tree/master/0085-maximal-rectangle) |
+| [0087-scramble-string](https://github.com/mohamedebrahim96/leethub/tree/master/0087-scramble-string) |
 ## Backtracking
 |  |
 | ------- |
