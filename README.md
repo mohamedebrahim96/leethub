@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/mohamedebrahim96/leethub/tree/master/0001-two-sum) |
+| [0012-integer-to-roman](https://github.com/mohamedebrahim96/leethub/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/mohamedebrahim96/leethub/tree/master/0013-roman-to-integer) |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/mohamedebrahim96/leethub/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0037-sudoku-solver](https://github.com/mohamedebrahim96/leethub/tree/master/0037-sudoku-solver) |
@@ -17,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0007-reverse-integer](https://github.com/mohamedebrahim96/leethub/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/mohamedebrahim96/leethub/tree/master/0009-palindrome-number) |
+| [0012-integer-to-roman](https://github.com/mohamedebrahim96/leethub/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/mohamedebrahim96/leethub/tree/master/0013-roman-to-integer) |
 | [0029-divide-two-integers](https://github.com/mohamedebrahim96/leethub/tree/master/0029-divide-two-integers) |
 ## String
@@ -26,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0006-zigzag-conversion](https://github.com/mohamedebrahim96/leethub/tree/master/0006-zigzag-conversion) |
 | [0008-string-to-integer-atoi](https://github.com/mohamedebrahim96/leethub/tree/master/0008-string-to-integer-atoi) |
 | [0010-regular-expression-matching](https://github.com/mohamedebrahim96/leethub/tree/master/0010-regular-expression-matching) |
+| [0012-integer-to-roman](https://github.com/mohamedebrahim96/leethub/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/mohamedebrahim96/leethub/tree/master/0013-roman-to-integer) |
 | [0020-valid-parentheses](https://github.com/mohamedebrahim96/leethub/tree/master/0020-valid-parentheses) |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/mohamedebrahim96/leethub/tree/master/0030-substring-with-concatenation-of-all-words) |
