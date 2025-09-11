@@ -115,6 +115,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0037-sudoku-solver](https://github.com/mohamedebrahim96/leethub/tree/master/0037-sudoku-solver) |
 | [0051-n-queens](https://github.com/mohamedebrahim96/leethub/tree/master/0051-n-queens) |
+| [0052-n-queens-ii](https://github.com/mohamedebrahim96/leethub/tree/master/0052-n-queens-ii) |
 ## Matrix
 |  |
 | ------- |
