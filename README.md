@@ -53,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0031-next-permutation](https://github.com/mohamedebrahim96/leethub/tree/master/0031-next-permutation) |
 | [0035-search-insert-position](https://github.com/mohamedebrahim96/leethub/tree/master/0035-search-insert-position) |
 | [0037-sudoku-solver](https://github.com/mohamedebrahim96/leethub/tree/master/0037-sudoku-solver) |
+| [0039-combination-sum](https://github.com/mohamedebrahim96/leethub/tree/master/0039-combination-sum) |
 | [0041-first-missing-positive](https://github.com/mohamedebrahim96/leethub/tree/master/0041-first-missing-positive) |
 | [0042-trapping-rain-water](https://github.com/mohamedebrahim96/leethub/tree/master/0042-trapping-rain-water) |
 | [0051-n-queens](https://github.com/mohamedebrahim96/leethub/tree/master/0051-n-queens) |
@@ -117,6 +118,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0022-generate-parentheses](https://github.com/mohamedebrahim96/leethub/tree/master/0022-generate-parentheses) |
 | [0037-sudoku-solver](https://github.com/mohamedebrahim96/leethub/tree/master/0037-sudoku-solver) |
+| [0039-combination-sum](https://github.com/mohamedebrahim96/leethub/tree/master/0039-combination-sum) |
 | [0051-n-queens](https://github.com/mohamedebrahim96/leethub/tree/master/0051-n-queens) |
 | [0052-n-queens-ii](https://github.com/mohamedebrahim96/leethub/tree/master/0052-n-queens-ii) |
 ## Matrix
