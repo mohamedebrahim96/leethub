@@ -22,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0012-integer-to-roman](https://github.com/mohamedebrahim96/leethub/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/mohamedebrahim96/leethub/tree/master/0013-roman-to-integer) |
 | [0029-divide-two-integers](https://github.com/mohamedebrahim96/leethub/tree/master/0029-divide-two-integers) |
+| [0089-gray-code](https://github.com/mohamedebrahim96/leethub/tree/master/0089-gray-code) |
 ## String
 |  |
 | ------- |
@@ -126,6 +127,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0039-combination-sum](https://github.com/mohamedebrahim96/leethub/tree/master/0039-combination-sum) |
 | [0051-n-queens](https://github.com/mohamedebrahim96/leethub/tree/master/0051-n-queens) |
 | [0052-n-queens-ii](https://github.com/mohamedebrahim96/leethub/tree/master/0052-n-queens-ii) |
+| [0089-gray-code](https://github.com/mohamedebrahim96/leethub/tree/master/0089-gray-code) |
 ## Matrix
 |  |
 | ------- |
@@ -182,4 +184,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0029-divide-two-integers](https://github.com/mohamedebrahim96/leethub/tree/master/0029-divide-two-integers) |
+| [0089-gray-code](https://github.com/mohamedebrahim96/leethub/tree/master/0089-gray-code) |
 <!---LeetCode Topics End-->
